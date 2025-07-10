@@ -1,8 +1,8 @@
-# ♞ Knight’s Tour Visualizer (AIRE305 Project)
+# ♞ Knight’s Tour Visualizer
 
 A visual, interactive Python simulation of the **Knight’s Tour problem** using **lookahead algorithms**. This project demonstrates AI-inspired decision-making by simulating how a knight moves across a chessboard, visiting every square exactly once without repetition. Users can choose between 1-step and 2-step lookahead modes, enabling an engaging way to understand heuristic search strategies.
 
-> 🧠 Developed as part of **AIRE305 – Artificial Intelligence and Robotics Engineering** at Abu Dhabi University.
+> 🧠 Developed as part of **AIRE305 – Artificial Intelligence and Robotics Engineering**.
 
 ---
 
