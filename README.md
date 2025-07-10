@@ -35,7 +35,24 @@ A variation of Warnsdorff’s Rule is used to pick the knight’s next move:
 - Tiebreakers are resolved alphabetically.
 
 ---
+## 📸 Visual Examples
 
+### ♟️ One-Step Lookahead Example
+
+In this mode, the knight evaluates **all possible next moves** from its current position and picks the one with the **highest number of available onward moves**.
+
+![1-Step Lookahead](1step_lookahead.png)
+*Red highlights show valid moves based on one-step prediction.*
+
+--
+
+### ♞ Two-Step Lookahead Example
+
+Here, the knight evaluates the **future outcomes** of each possible move, checking what options each of those leads to (like a search tree with depth = 2), and selects the move that offers the **best cumulative potential**.
+
+![2-Step Lookahead](2step_lookahead.png)
+*Yellow highlights indicate depth-2 move predictions, allowing smarter path planning.*
+---
 ## 🎮 Features
 
 | Feature | Description |
